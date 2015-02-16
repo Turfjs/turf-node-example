@@ -60,11 +60,11 @@ var convexHull = turf.convex(randomPoints);
 // We'll also use the JSON methods again, this time to turn our
 // JavaScript variable back into a string of formatted data
 // so that it can be saved.
-fs.writeFileSync('./output/convex_hull.geojson', JSON.stringify(convexHull));
+fs.writeFileSync('./convex_hull.geojson', JSON.stringify(convexHull));
 
 // And there we are: you can look at these files by finding them on your computer
 // and opening them in a system like geojson.io, TileMill, QGIS, or ArcGIS:
 // GeoJSON works almost everywhere!
 
 // Finally, we'll just log a nice little message to tell you that it all worked.
-console.log('saved output/convex_hull.geojson');
+console.log('saved convex_hull.geojson');
