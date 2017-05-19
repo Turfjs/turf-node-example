@@ -12,7 +12,7 @@
 // the following line, the variable `turf` becomes the turf library,
 // including all of its component functions like `turf.extent` and
 // `turf.buffer`
-var turf = require('turf');
+var turf = require('@turf/turf');
 
 // The only other library than turf we'll use in this example is the 'fs'
 // module. This is short for 'filesystem' and gives us functions that

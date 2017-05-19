@@ -1,0 +1,4 @@
+node_modules
+
+# output file
+convex_hull.geojson
